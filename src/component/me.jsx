@@ -17,7 +17,7 @@ function Me() {
             Truth
           </div>
           <div className="introduction">
-            You can call me Allen | 24 years old | Located in the US | I believe the tech revolution and education are the only ways to save us
+            Located in the US | BSCS@UIUC | MSCS@Gatech | I believe the tech revolution and education are the only ways to save us
           </div>
           <div className="title">
             Things I like

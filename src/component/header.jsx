@@ -8,7 +8,7 @@ function Header() {
         Hello <span className="wave">👋</span>
       </h1>
       <h1>
-        I'm&nbsp; <span className="highlighted-name"><strong>Hanxuan Zhang</strong></span>
+        I'm&nbsp; <span className="highlighted-name"><strong>Allen Zhang</strong></span>
       </h1>
       <h1>
         I build cool stuff to make
