@@ -1,0 +1,100 @@
+.header {
+    width: 90%;
+    font-family: 'Arial', sans-serif;
+    text-align: left;
+    padding: 20px;
+    margin: 30px auto 0 auto;
+    color: #000;
+}
+
+.header h1 {
+    font-size: 5rem;
+    margin: 0;
+}
+
+.header .wave {
+    animation: wave-animation 2.5s infinite;
+    display: inline-block;
+    transform-origin: 70% 70%;
+}
+
+@keyframes wave-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(14deg);
+    }
+    20% {
+        transform: rotate(-8deg);
+    }
+    30% {
+        transform: rotate(14deg);
+    }
+    40% {
+        transform: rotate(-4deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(0deg);
+    }
+}
+
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 5rem;
+    }
+}
+
+/* Button container styles */
+.button-container {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    margin-top: 25px;
+}
+
+/* Default button styles */
+.custom-button {
+    font-size: 14px;
+    font-weight: 300; /* Thin text */
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 20px; /* Rounded rectangle */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+}
+
+/* Hover effect */
+.custom-button:hover {
+    font-size: 16px; /* Slightly larger text */
+    background-color: rgba(0, 0, 0, 0.1); /* Add a transparent background */
+    transform: scale(1.1); /* Enlarge button */
+}
+
+.highlighted-name {
+    position: relative;
+    display: inline-block; /* Ensure pseudo-element positions relative to text */
+    color: #000;
+}
+
+.highlighted-name::before {
+    content: '{'; /* Left and right brackets */
+    font-size: 4.5rem; /* Adjust bracket size */
+    color: #535bf2; /* Blue color */
+    position: absolute;
+    left: -10px; /* Position for left bracket */
+    transform: translateX(-100%); /* Ensure bracket is close to the text */
+}
+
+.highlighted-name::after {
+    content: '}'; /* Left and right brackets */
+    font-size: 4.5rem; /* Adjust bracket size */
+    color: #535bf2; /* Blue color */
+    position: absolute;
+    right: -10px; /* Position for right bracket */
+    transform: translateX(100%); /* Ensure bracket is close to the text */
+}
