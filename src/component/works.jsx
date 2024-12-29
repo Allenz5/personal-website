@@ -15,16 +15,16 @@ function Work() {
       link: "/eom",
     },
     {
-      title: "Orpheus",
-      description: "An AI mental well-being support chatbot with EEG monitoring",
-      video: project2video,
-      link: "/orpheus",
-    },
-    {
       title: "Dream!n Engine",
       description: "A prompt-based AI game editor with no technical barriers",
       video: project4video,
       link: "/dreamin",
+    },
+    {
+      title: "Orpheus",
+      description: "An AI mental well-being support chatbot with EEG monitoring",
+      video: project2video,
+      link: "/orpheus",
     },
     {
       title: "Tripo AI",
