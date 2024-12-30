@@ -16,7 +16,7 @@ function Work() {
     },
     {
       title: "Dream!n Engine",
-      description: "A prompt-based AI game editor with no technical barriers",
+      description: "A game editor with an AI copilot and no technical barriers",
       video: project4video,
       link: "/dreamin",
     },
